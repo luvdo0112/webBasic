@@ -1,0 +1,21 @@
+div, span {
+  font-size: 48px;
+}
+.box1 {
+  background-color: gold;
+}
+.box2 {
+  background-color: pink;
+}
+.box3 {
+  background-color: lime;
+}
+.box4 {
+  background-color: blue;
+}
+.box5 {
+  background-color: orange;
+  /* position relative은 원래 박스 모델을 유지하면서 움직이게 해준다 */
+  position: relative;
+  /* position absolute는 무조건 block이 된다 */
+}
