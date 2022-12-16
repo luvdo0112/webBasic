@@ -1,0 +1,26 @@
+.box {
+  border: 10px solid red;
+  overflow: hidden;
+}
+.box::after {
+  content: "";
+}
+.box1 {
+  background-color: gold;
+  float: right;
+}
+.box2 {
+  background-color: pink;
+  float: right;
+  width: 500px;
+}
+.box3 {
+  background-color: lime;
+  float: right;
+  width: 400px;
+}
+.box4 {
+  background-color: blue;
+  float: left;
+  width: 70px;
+}

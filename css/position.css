@@ -1,0 +1,27 @@
+.box {
+  border: 10px solid red;
+  position: relative;
+}
+.box1 {
+  background-color: gold;
+  /* 본래 있던 자리 그대로 빈자리 남겨둔다 */
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+.box2 {
+  background-color: pink;
+  /* 본래 있던 자리 위에 떠있는다, relative를 기준으로 */
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+.box3 {
+  background-color: lime;
+}
+.box4 {
+  background-color: blue;
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+}
